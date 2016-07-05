@@ -11,7 +11,9 @@ info:
     email: admin@companyc.com
     url: 'http://www.companyc.com'
   license:
+    name: companyC license
     url: 'http://www.companyc.com'
+  termsOfService: CompanyC terms of service
 apis:
   socialreviews:
     $ref: socialreviews.yaml

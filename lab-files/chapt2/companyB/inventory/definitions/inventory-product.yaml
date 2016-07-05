@@ -10,6 +10,8 @@ info:
     url: 'http://www.companyb.com'
   license:
     url: 'http://www.companyb.com'
+    name: companyB license
+  termsOfService: companyB terms of service
 apis:
   inventory:
     $ref: inventory.yaml
