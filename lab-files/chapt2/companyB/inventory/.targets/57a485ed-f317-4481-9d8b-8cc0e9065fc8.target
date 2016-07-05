@@ -1,0 +1,108 @@
+type: bluemix
+server:
+  displayName: US South
+  name: us-south
+  host: us.apiconnect.ibmcloud.com
+org:
+  url: 'https://us.apiconnect.ibmcloud.com/v1/orgs/5771de970cf2b1598c2d7362'
+  id: 5771de970cf2b1598c2d7362
+  name: rgupta1usibmcom-redbook
+  status: active
+  orgType: apiProvider
+  displayName: rgupta1@us.ibm.com (redbook)
+  externalOrgId: c269e684-20fb-4096-ae8b-4198cc6e9817
+  externalInviteOverride: 'https://new-console.ng.bluemix.net/apis/catalog/invitation'
+  externalSpaceId: c269e684-20fb-4096-ae8b-4198cc6e9817
+  externalNativeOrgId: bb202d52-0520-4d52-b485-c95919fe495d
+  advPortalOverride: true
+  extUaaAuthenticated: false
+  requiresSSLClientCertCheck: false
+catalog:
+  id: 5771e09b0cf2b96c958498bb
+  shortName: apicstore-catalog
+  name: ApicStore Catalog
+  sandbox: false
+app:
+  metadata:
+    guid: 0203ebfb-9ff5-495c-81f6-267561ee14bc
+  entity:
+    guid: 0203ebfb-9ff5-495c-81f6-267561ee14bc
+    name: inventory-loopback-app
+    routes:
+      - guid: 8385b17d-a7b6-42f1-ab45-f10f0932eb23
+        host: apiconnect-0203ebfb-9ff5-495c-81f6-267561ee14bc
+        domain:
+          guid: 885f2579-df57-4a79-a500-60752f7e59d1
+          name: rgupta1usibmcom-redbook.apic.mybluemix.net
+    running_instances: 0
+    services: []
+    available_domains:
+      - guid: 6ba27dca-2357-46bd-8144-6bb8e1c3f496
+        name: ecomcompanyb.mybluemix.net
+        owning_organization_guid: bb202d52-0520-4d52-b485-c95919fe495d
+      - guid: 84e7cbd9-7b94-44ac-bf92-21ad1a7ef933
+        name: socialcompanyc.mybluemix.net
+        owning_organization_guid: bb202d52-0520-4d52-b485-c95919fe495d
+      - guid: 885f2579-df57-4a79-a500-60752f7e59d1
+        name: rgupta1usibmcom-redbook.apic.mybluemix.net
+        owning_organization_guid: bb202d52-0520-4d52-b485-c95919fe495d
+      - guid: f4b90d7e-2cd3-4d30-b200-f28bbaf6be20
+        name: mybluemix.net
+        router_group_guid: null
+    production: false
+    space_guid: c269e684-20fb-4096-ae8b-4198cc6e9817
+    stack_guid: ac91d31a-86a3-453b-babf-8d49c9d763fc
+    buildpack: null
+    detected_buildpack: 'SDK for Node.js(TM) (ibm-node.js-4.4.5, buildpack-v3.5-20160609-1608)'
+    environment_json: {}
+    memory: 256
+    instances: 1
+    disk_quota: 1024
+    state: STOPPED
+    version: 2b218f9f-c936-4679-ae15-8b1f49ee1265
+    command: null
+    console: true
+    debug: null
+    staging_task_id: 06515d7b19cf4748a0a14cfa249e3c62
+    package_state: STAGED
+    health_check_type: port
+    health_check_timeout: null
+    staging_failed_reason: null
+    staging_failed_description: null
+    diego: false
+    docker_image: null
+    package_updated_at: '2016-06-29T16:09:52Z'
+    detected_start_command: ./vendor/initial_startup.rb
+    enable_ssh: true
+    docker_credentials_json:
+      redacted_message: '[PRIVATE DATA HIDDEN]'
+    ports: null
+id: 57a485ed-f317-4481-9d8b-8cc0e9065fc8
+target: 1.0.0
+versionOptions:
+  inplaceUpdate: true
+publishApp: true
+workspaceDir:
+  path: >-
+    c:\Innovation\Redbook\Residency\API
+    Connect\apic-workstream\lab-files\chapt2\companyB\inventory
+publishProducts: false
+productStageOnly: true
+specificProducts: true
+products:
+  - info:
+      name: inventory
+      title: inventory
+      version: 1.0.0
+      description: inventory application from CompanyB
+      contact:
+        name: Admin
+        email: admin@companyb.com
+        url: 'http://www.companyb.com'
+      license:
+        url: 'http://www.companyb.com'
+    updatedAt: '2016-06-28T05:55:01.969Z'
+    file: >-
+      c:\Innovation\Redbook\Residency\API
+      Connect\apic-workstream\lab-files\chapt2\companyB\inventory\definitions\inventory-product.yaml
+    selected: true
